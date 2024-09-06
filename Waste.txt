@@ -1,0 +1,50 @@
+<-- 2024.09.06
+
+function GenerateBullet(position, halfSize, color, timeLeft, direction, speed) {
+    bullets.push({
+        position: position,
+        halfSize: halfSize,
+        color: color,
+        timeLeft: timeLeft,
+        direction: direction,
+        speed: speed
+    });
+}
+
+//document.body.onkeydown = function(e){
+//    if (e.keyCode == 32/*space*/){
+//        console.log(e);
+//        //console.log("space bar pressed");
+//    }
+//    else {
+//        //console.log(e);
+//    }
+//}
+
+//event.clientX;
+//event.clientY;
+//console.log(event);
+//// Left mouse button clicked
+//console.log('Left click!');
+
+//PutPixel(new Vec(100, 100), new Vec(1.0, 0.0, 0.0, 1.0));
+//DrawRect(new Vec(100, 100), new Vec(100, 100), new Vec(0.0, 1.0, 0.0, 0.5));
+
+//PutPixel([-10, 100], [1.0, 0.0, 0.0, 1.0]);
+//PutPixel([-11, 100], [1.0, 0.0, 0.0, 1.0]);
+//PutPixel([-12, 100], [1.0, 0.0, 0.0, 1.0]);
+
+//DrawRect([100, 100], [100, 100], [0.0, 1.0, 0.0, 0.5]);
+//
+//PutPixel([100, 100], [1.0, 0.0, 0.0, 1.0]);
+//PutPixel([101, 100], [1.0, 0.0, 0.0, 1.0]);
+//PutPixel([102, 100], [1.0, 0.0, 0.0, 1.0]);
+//PutPixel([103, 100], [1.0, 0.0, 0.0, 1.0]);
+//
+//ctx.fillStyle = "rgb(200 0 0)";
+//ctx.fillRect(10, 10, 50, 50);
+//
+//ctx.fillStyle = "rgb(0 0 200 / 50%)";
+//ctx.fillRect(30, 30, 50, 50);
+
+>--
